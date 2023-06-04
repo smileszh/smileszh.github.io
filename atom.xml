@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-04T15:51:55.818Z</updated>
+  <updated>2023-06-04T16:03:44.872Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://smileszh.github.io/posts/c56c7b8c.html"/>
     <id>https://smileszh.github.io/posts/c56c7b8c.html</id>
     <published>2023-05-30T16:25:53.000Z</published>
-    <updated>2023-06-04T15:51:55.818Z</updated>
+    <updated>2023-06-04T16:03:44.872Z</updated>
     
     <content type="html"><![CDATA[<p>测试博客-跑一下吧</p>]]></content>
     
@@ -34,6 +34,8 @@
     
     
     
+    
+    <category term="生物信息学" scheme="https://smileszh.github.io/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
   </entry>
   
