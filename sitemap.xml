@@ -112,7 +112,7 @@
 
   <url>
     <loc>https://smileszh.github.io/</loc>
-    <lastmod>2023-06-04</lastmod>
+    <lastmod>2023-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,14 +120,14 @@
   
   <url>
     <loc>https://smileszh.github.io/tags/conda/</loc>
-    <lastmod>2023-06-04</lastmod>
+    <lastmod>2023-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://smileszh.github.io/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</loc>
-    <lastmod>2023-06-04</lastmod>
+    <lastmod>2023-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -136,7 +136,7 @@
   
   <url>
     <loc>https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/</loc>
-    <lastmod>2023-06-04</lastmod>
+    <lastmod>2023-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
