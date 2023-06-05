@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-04T19:43:54.237Z</updated>
+  <updated>2023-06-05T11:10:21.666Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://smileszh.github.io/posts/1.html"/>
+    <id>https://smileszh.github.io/posts/1.html</id>
+    <published>2023-06-04T19:00:00.000Z</published>
+    <updated>2023-06-05T11:10:21.666Z</updated>
+    
+    
+    
+    
+    <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
+    
+    
+    <category term="conda" scheme="https://smileszh.github.io/tags/conda/"/>
+    
+    <category term="软件管理" scheme="https://smileszh.github.io/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>conda管理生信软件</title>
