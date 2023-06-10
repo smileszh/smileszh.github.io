@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-10T15:03:28.927Z</updated>
+  <updated>2023-06-10T16:54:36.237Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>引物设计</title>
+    <link href="https://smileszh.github.io/posts/e7e9fba0.html"/>
+    <id>https://smileszh.github.io/posts/e7e9fba0.html</id>
+    <published>2023-06-10T16:00:00.000Z</published>
+    <updated>2023-06-10T16:54:36.237Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="查找基因"><a href="#查找基因" class="headerlink" title="查找基因"></a>查找基因</h1><h2 id="进入NCBI官网"><a href="#进入NCBI官网" class="headerlink" title="进入NCBI官网"></a>进入<a href="https://www.ncbi.nlm.nih.gov/">NCBI官网</a></h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1c4eae.png" alt="官网.png" style="zoom: 35%;" /></p><h2 id="查找序列"><a href="#查找序列" class="headerlink" title="查找序列"></a>查找序列</h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1d340a.png" alt="查找基因1.png" style="zoom:35%;" /></p><h2 id="查找基因ID"><a href="#查找基因ID" class="headerlink" title="查找基因ID"></a>查找基因ID</h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1d0f51.png" alt="查找基因2.png" style="zoom:35%;" /></p><h1 id="引物设计"><a href="#引物设计" class="headerlink" title="引物设计"></a>引物设计</h1><h2 id="打开Prime-BLAST"><a href="#打开Prime-BLAST" class="headerlink" title="打开Prime-BLAST"></a>打开<a href="https://www.ncbi.nlm.nih.gov/tools/primer-blast/index.cgi?LINK_LOC=BlastHome">Prime-BLAST</a></h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1c5396.png" alt="引物1.png" style="zoom:35%;" /></p><h2 id="根据需求填写参数"><a href="#根据需求填写参数" class="headerlink" title="根据需求填写参数"></a>根据需求填写参数</h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1dbb3c.png" alt="引物2.png" style="zoom:35%;" /></p><h1 id="结果筛选"><a href="#结果筛选" class="headerlink" title="结果筛选"></a>结果筛选</h1><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1c5b30.png" alt="结果.png" style="zoom:40%;" /></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;查找基因&quot;&gt;&lt;a href=&quot;#查找基因&quot; class=&quot;headerlink&quot; title=&quot;查找基因&quot;&gt;&lt;/a&gt;查找基因&lt;/h1&gt;&lt;h2 id=&quot;进入NCBI官网&quot;&gt;&lt;a href=&quot;#进入NCBI官网&quot; class=&quot;headerlink&quot; title=&quot;进</summary>
+      
+    
+    
+    
+    <category term="科研知识" scheme="https://smileszh.github.io/categories/%E7%A7%91%E7%A0%94%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="引物设计" scheme="https://smileszh.github.io/tags/%E5%BC%95%E7%89%A9%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>tidyverse：处理关系数据</title>

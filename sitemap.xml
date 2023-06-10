@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://smileszh.github.io/posts/e7e9fba0.html</loc>
+    
+    <lastmod>2023-06-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://smileszh.github.io/posts/7218365e.html</loc>
     
     <lastmod>2023-06-10</lastmod>
@@ -164,7 +173,14 @@
 
   
   <url>
-    <loc>https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/</loc>
+    <lastmod>2023-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://smileszh.github.io/tags/R%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2023-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -178,14 +194,7 @@
   </url>
   
   <url>
-    <loc>https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2023-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://smileszh.github.io/tags/R%E7%BB%98%E5%9B%BE/</loc>
+    <loc>https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2023-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -226,6 +235,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://smileszh.github.io/tags/%E5%BC%95%E7%89%A9%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2023-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -236,7 +252,7 @@
   </url>
   
   <url>
-    <loc>https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/%E7%A7%91%E7%A0%94%E7%9F%A5%E8%AF%86/</loc>
+    <loc>https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/R%E8%AF%AD%E8%A8%80/</loc>
     <lastmod>2023-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -250,7 +266,14 @@
   </url>
   
   <url>
-    <loc>https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/R%E8%AF%AD%E8%A8%80/</loc>
+    <loc>https://smileszh.github.io/categories/%E7%A7%91%E7%A0%94%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2023-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/%E7%A7%91%E7%A0%94%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2023-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
