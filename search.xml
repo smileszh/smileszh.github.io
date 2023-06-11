@@ -209,9 +209,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -220,9 +220,9 @@
     
     
     <entry>
-      <title>相册集</title>
-      <link href="/album/index.html"/>
-      <url>/album/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -253,9 +253,9 @@
     
     
     <entry>
-      <title>日常生活</title>
-      <link href="/dailyPhoto/index.html"/>
-      <url>/dailyPhoto/index.html</url>
+      <title>即刻短文</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -275,9 +275,9 @@
     
     
     <entry>
-      <title>即刻短文</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -297,9 +297,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>音乐馆</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -308,9 +308,9 @@
     
     
     <entry>
-      <title>世界各地风景</title>
-      <link href="/wordScenery/index.html"/>
-      <url>/wordScenery/index.html</url>
+      <title>日常生活</title>
+      <link href="/dailyPhoto/index.html"/>
+      <url>/dailyPhoto/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -330,9 +330,9 @@
     
     
     <entry>
-      <title>音乐馆</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>世界各地风景</title>
+      <link href="/wordScenery/index.html"/>
+      <url>/wordScenery/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
