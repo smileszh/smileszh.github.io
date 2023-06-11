@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-11T04:27:50.766Z</updated>
+  <updated>2023-06-11T14:48:26.100Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>引物设计</title>
+    <title>生物数据库基因ID</title>
+    <link href="https://smileszh.github.io/posts/df5af0f1.html"/>
+    <id>https://smileszh.github.io/posts/df5af0f1.html</id>
+    <published>2023-06-11T14:00:00.000Z</published>
+    <updated>2023-06-11T14:48:26.100Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>小苏碎碎念：</em></p><p><em>科研分析中经常会遇到各种各样的基因ID类型，了解各种命名的来源和规则有助于我们在不同的数据库之间进行转换和使用。同时因各种各样的数据库越来越多，本文档也会持续完善和更新～～～🍊。</em></p><h1 id="背景知识"><a href="#背景知识" class="headerlink" title="背景知识"></a>背景知识</h1><ul><li><p>NCBI：National Center for Biotechnology Information, 即美国国家生物技术信息中心，是一个机构名称，不是数据库。</p></li><li><p><a href="https://www.ncbi.nlm.nih.gov/">Entrez</a> 是一个归属于 NCBI 的综合性的生物信息数据检索引擎系统，这个搜索引擎整合了包含核酸、蛋白质、基因、基因组、GEO 等在内的很多常用数据库。</p></li><li>HGNC: HUGO Gene Nomenclature Committee, 即人类基因命名委员会。人类大多基因的命名，是有HGNC完成的。</li><li>小鼠（mouse）的基因命名来源于MGNC；大鼠（rat）基因命名来源于RGNC；斑马鱼（zebrafish）基因命名来源于ZFIN</li><li><a href="https://www.ensembl.org/index.html">Ensembl</a> 基因组数据 库项目，是 1999 年启动的，来应对当时即将完成的人类基因组计划的一个科学项目，是科 研人员用于检索基因组信息的最常用数据库之一。</li><li>refseq参考序列数据库，是NCBI提供的具有生物学意义上的非冗余的基因和蛋 白等片段序列的数据库。它是目前世界上比较权威的序列数据库，一般可信度是比较高的。</li></ul><h1 id="Entrez-Gene-ID"><a href="#Entrez-Gene-ID" class="headerlink" title="Entrez Gene ID"></a>Entrez Gene ID</h1><blockquote><p>Entrez ID</p></blockquote><p>Entrez gene ID 来源于 Entrez gene 数据库的编号系统。Entrez 基因数据库其实就是我们现在指的 NCBI 中的 Gene 数据库，这两个名字指的是同一个数据库</p><p><img src="https://bu.dusays.com/2023/06/11/6485cd2ea5710.png" alt="GENE database.png" style="zoom:50%;" /></p><p>Entrez Gene ID编号的格式就是一串数字。比如说像 <a href="https://www.ncbi.nlm.nih.gov/gene/7157">TP53</a>，他下面的 gene ID:7157</p><p><img src="https://bu.dusays.com/2023/06/11/6485ce4cac856.png" alt="TP53 gene id.png" style="zoom: 67%;" /></p><h1 id="Gene-Symbol"><a href="#Gene-Symbol" class="headerlink" title="Gene Symbol"></a>Gene Symbol</h1><blockquote><p>official Symbol,  HGNC symbol</p></blockquote><ul><li>Office symbol: 是HGNC组织对基因进行命名的描述的一个缩写标识符</li><li>Office Full Name: 是经HGNC批准的基因名全称</li><li>HGNC ID：是HGNC数据库分配的基因编号，每个标准的symbol都有对应的HGNC ID</li></ul><p><img src="https://bu.dusays.com/2023/06/11/6485d13d7e1d7.png" alt="symbol.png"></p><p><em>注：并不是所有的基因都有Official Symbol。如果基因缺少基因命名委员会命名的Gene Symbol，Entez Gene数据库中的Official symbol 就会变为Gene Symbol, 并且Gene Symbol的编号会变为LOC前缀加Entrez ID。</em>如：</p><p><img src="https://bu.dusays.com/2023/06/11/6485d3fde40a0.png" alt="LOC.png"></p><h1 id="Ensemble-ID"><a href="#Ensemble-ID" class="headerlink" title="Ensemble ID"></a>Ensemble ID</h1><blockquote><p>Ensembl Stable ID </p></blockquote><p>命名规则：ENS[根据不同物种设置的前缀][数据所指类型（如基因，蛋白等）][一段特定的数字] . [版本]</p><p><img src="https://bu.dusays.com/2023/06/11/6485d81a96f6c.png" alt="ENS .png"></p><h1 id="RefSeq-Accession-Number"><a href="#RefSeq-Accession-Number" class="headerlink" title="RefSeq Accession Number"></a>RefSeq Accession Number</h1><blockquote><p>RefSeq ID</p></blockquote><p>命名的格式已两个字母开头，后面跟一个下划线和六个或多个字母</p><p><img src="https://bu.dusays.com/2023/06/11/6485db197eb94.png" alt="前缀.png" style="zoom: 67%;" /></p><p><em>注：在 NCBI 的这个检索结果里，refseq status 这一行会显示这条 refseq 的状态。主要状态有:MODEL 指自动被 NCBI 提供的，没有被审核过，INFERRED 指由序列分 析预测得到，没有经过实验验证，PREDICTED 指没有经过人工审核，REVIEWED 指已被人工审 核等等，可以根据这条信息认定序列的可信度。</em></p><p><img src="https://bu.dusays.com/2023/06/11/6485d9504d3a7.png" alt="ref.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;em&gt;小苏碎碎念：&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;科研分析中经常会遇到各种各样的基因ID类型，了解各种命名的来源和规则有助于我们在不同的数据库之间进行转换和使用。同时因各种各样的数据库越来越多，本文档也会持续完善和更新～～～🍊。&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&quot;背景</summary>
+      
+    
+    
+    
+    <category term="科研知识" scheme="https://smileszh.github.io/categories/%E7%A7%91%E7%A0%94%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="基因ID" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0ID/"/>
+    
+    <category term="生物数据库" scheme="https://smileszh.github.io/tags/%E7%94%9F%E7%89%A9%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>定量引物设计</title>
     <link href="https://smileszh.github.io/posts/e7e9fba0.html"/>
     <id>https://smileszh.github.io/posts/e7e9fba0.html</id>
     <published>2023-06-10T16:00:00.000Z</published>
-    <updated>2023-06-11T04:27:50.766Z</updated>
+    <updated>2023-06-11T14:07:35.982Z</updated>
     
     <content type="html"><![CDATA[<h1 id="查找基因"><a href="#查找基因" class="headerlink" title="查找基因"></a>查找基因</h1><h2 id="进入NCBI官网"><a href="#进入NCBI官网" class="headerlink" title="进入NCBI官网"></a>进入<a href="https://www.ncbi.nlm.nih.gov/">NCBI官网</a></h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1c4eae.png" alt="官网.png" style="zoom: 35%;" /></p><h2 id="查找序列"><a href="#查找序列" class="headerlink" title="查找序列"></a>查找序列</h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1d340a.png" alt="查找基因1.png" style="zoom:35%;" /></p><h2 id="查找基因ID"><a href="#查找基因ID" class="headerlink" title="查找基因ID"></a>查找基因ID</h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1d0f51.png" alt="查找基因2.png" style="zoom:35%;" /></p><h1 id="引物设计"><a href="#引物设计" class="headerlink" title="引物设计"></a>引物设计</h1><h2 id="打开Prime-BLAST"><a href="#打开Prime-BLAST" class="headerlink" title="打开Prime-BLAST"></a>打开<a href="https://www.ncbi.nlm.nih.gov/tools/primer-blast/index.cgi?LINK_LOC=BlastHome">Prime-BLAST</a></h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1c5396.png" alt="引物1.png" style="zoom:35%;" /></p><h2 id="根据需求填写参数"><a href="#根据需求填写参数" class="headerlink" title="根据需求填写参数"></a>根据需求填写参数</h2><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1dbb3c.png" alt="引物2.png" style="zoom:35%;" /></p><h1 id="结果筛选"><a href="#结果筛选" class="headerlink" title="结果筛选"></a>结果筛选</h1><p><img src="https://bu.dusays.com/2023/06/11/6484a6b1c5b30.png" alt="结果.png" style="zoom:40%;" /></p>]]></content>
     
