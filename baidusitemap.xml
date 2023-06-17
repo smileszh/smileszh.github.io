@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://smileszh.github.io/posts/7aba474f.html</loc>
+    <lastmod>2023-06-17</lastmod>
+  </url>
+  <url>
     <loc>https://smileszh.github.io/posts/cee7e62d.html</loc>
-    <lastmod>2023-06-12</lastmod>
+    <lastmod>2023-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://smileszh.github.io/posts/b3231218.html</loc>
+    <lastmod>2023-06-17</lastmod>
   </url>
   <url>
     <loc>https://smileszh.github.io/posts/df5af0f1.html</loc>
@@ -27,9 +35,5 @@
   <url>
     <loc>https://smileszh.github.io/posts/7218365e.html</loc>
     <lastmod>2023-06-11</lastmod>
-  </url>
-  <url>
-    <loc>https://smileszh.github.io/posts/7aba474f.html</loc>
-    <lastmod>2023-06-06</lastmod>
   </url>
 </urlset> 
