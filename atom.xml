@@ -197,9 +197,9 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
-    
     <category term="基因注释" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0%E6%B3%A8%E9%87%8A/"/>
+    
+    <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
