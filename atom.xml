@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-21T18:04:49.608Z</updated>
+  <updated>2023-06-21T18:05:12.116Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://smileszh.github.io/posts/e0208d09.html"/>
     <id>https://smileszh.github.io/posts/e0208d09.html</id>
     <published>2023-06-21T17:52:00.000Z</published>
-    <updated>2023-06-21T18:04:49.608Z</updated>
+    <updated>2023-06-21T18:05:12.116Z</updated>
     
     <content type="html"><![CDATA[<p><em>小苏碎碎念</em></p><p><em>随着测序数据和方法不断出现，对于不同的基因类型和不同类型的测序数据，进行信息查询和富集分析是生物信息学的一大方面，越来越多在在线网站提供各种各样的分析流程和结果。本文主要收集主要的富集分析在线工具，且随着学习的逐步深入，也在逐步完善此文档～。</em></p><h1 id="KOBAS"><a href="#KOBAS" class="headerlink" title="KOBAS"></a><a href="http://kobas.cbi.pku.edu.cn/">KOBAS</a></h1><ul><li><p>基因/蛋白功能注释（注释模块）和功能基因集富集（富集模块）的在线工具</p></li><li><p>注释模块：输入基因列表，从通路、疾病、基因本体论等多个数据库中提取基因功能注释信息</p></li><li><p>富集模块：输入基因列表或基因表达数据，根据多种方法生成富集的基因集、对应的名称、P值或富集概率和富集分数 </p></li><li><p>支持microarray和RNA-Seq数据的分析</p></li></ul><h1 id="WebGestalt"><a href="#WebGestalt" class="headerlink" title="WebGestalt"></a><a href="https://www.webgestalt.org/">WebGestalt</a></h1><ul><li>功能富集分析在线工具</li><li>支持三种富集分析方法：ORA、GSEA、NTA</li></ul><h1 id="Enrichr"><a href="#Enrichr" class="headerlink" title="Enrichr"></a><a href="https://maayanlab.cloud/Enrichr/">Enrichr</a></h1><ul><li>综合性基因富集分析在线工具</li><li>支持BED格式和基因列表的输入</li><li>富集分析的数据库包括Transcription（转录）, Pathways（通路）, Ontologies（GO）, Diseases/Drugs（疾病/药物）, Cell types（细胞类型）, Misc（未分类数据集）, Legacy, Crowd</li></ul><h1 id="TAM2-0"><a href="#TAM2-0" class="headerlink" title="TAM2.0"></a><a href="http://www.lirmed.com/tam2/">TAM2.0</a></h1><ul><li>miRNA富集网站</li><li>将miRNA分为六大类：miRNA-family sets（miRNA家族），miRNA cluster sets（miRNA聚类），miRNA-disease（miRNA疾病），miRNA-function sets（miRNA功能），miRNA-TF sets（miRNA与转录因子），tissue specificity sets（组织特异性）。</li><li>“Analysis”：对一个miRNA列表，以数据库miRNA集为背景进行富集分析</li><li>“Comparison”：对一组上调和下调的miRNA列表，评估上下调的miRNA与疾病发生或抑制的关系</li><li>“Query”：通过关键词查询相关的miRNA集</li></ul><h1 id="SCPortalen"><a href="#SCPortalen" class="headerlink" title="SCPortalen"></a><a href="http://single-cell.riken.jp/SCPortalen_Database/Home/">SCPortalen</a></h1><ul><li>单细胞分析在线工具</li></ul>]]></content>
     
@@ -64,9 +64,9 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     <category term="富集分析" scheme="https://smileszh.github.io/tags/%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90/"/>
     
