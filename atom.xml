@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-27T01:48:54.908Z</updated>
+  <updated>2023-06-27T01:49:33.678Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://smileszh.github.io/posts/80184fae.html"/>
     <id>https://smileszh.github.io/posts/80184fae.html</id>
     <published>2023-06-27T02:00:00.000Z</published>
-    <updated>2023-06-27T01:48:54.908Z</updated>
+    <updated>2023-06-27T01:49:33.678Z</updated>
     
     <content type="html"><![CDATA[<h1 id="蛋白-DNA"><a href="#蛋白-DNA" class="headerlink" title="蛋白-DNA"></a>蛋白-DNA</h1><ul><li>也称转录因子模式，所有转录因子都包含一段 DNA结合域，结构域能够识别和结合基因启动子特征DNA序列（motif） ，进而影响靶基因从 DNA 转录产生 RNA 的过程，效应结果是 RNA量的多少变化，如果这个RNA是可以编码蛋白的mRNA，那么最终就会造成靶基因蛋白量的上调或者下调。</li><li><p>转录因子上的氨基酸序列和结构结合的 DNA 序列是有一定规律的，这种规律是预测转录因子调控靶基因的理论基础。</p></li><li><p>启动子是一段DNA序列, 启动子里含有 RNA 聚合酶的特异性结合序列，同时可以跟转录因子结合控制基因的转录活性。</p></li></ul><p><img src="https://bu.dusays.com/2023/06/27/6499bea4b4c9b.png" alt="dna-蛋白质.png"></p><h2 id="相关数据库"><a href="#相关数据库" class="headerlink" title="相关数据库"></a>相关数据库</h2><p><img src="https://bu.dusays.com/2023/06/27/6499c1836e9a1.png" alt="蛋白-dna数据库.png"></p><h1 id="蛋白-蛋白"><a href="#蛋白-蛋白" class="headerlink" title="蛋白-蛋白"></a>蛋白-蛋白</h1><p>蛋白与蛋白通过生成复合物发挥作用，或通过直接结合效应蛋白，影响效应蛋白的功能</p><p><img src="https://bu.dusays.com/2023/06/27/6499c2c763c64.png" alt="蛋白-蛋白.png" style="zoom:67%;" /></p><h2 id="相关数据库-1"><a href="#相关数据库-1" class="headerlink" title="相关数据库"></a>相关数据库</h2><p><img src="https://bu.dusays.com/2023/06/27/6499c32ac65d4.png" alt="蛋白-蛋白数据库.png"></p><h1 id="RNA-RNA-DNA"><a href="#RNA-RNA-DNA" class="headerlink" title="RNA-RNA/DNA"></a>RNA-RNA/DNA</h1><p>RNA既可以结合到DNA上，影响基因转录等功能。也可以结合到RNA上，在转录水平上影响RNA。</p><p><img src="https://bu.dusays.com/2023/06/27/6499c4dfd14c6.png" alt="RNA- RNA.png" style="zoom:67%;" /></p><h2 id="相关数据库-2"><a href="#相关数据库-2" class="headerlink" title="相关数据库"></a>相关数据库</h2><p><img src="https://bu.dusays.com/2023/06/27/6499c542501f4.png" alt="RNA- RNA数据库.png"></p><h1 id="RNA-蛋白"><a href="#RNA-蛋白" class="headerlink" title="RNA-蛋白"></a>RNA-蛋白</h1><p>RNA能够结合到蛋白上，影响蛋白到功能或者定位。蛋白也可以作用于RNA，影响RNA的功能</p><p><img src="https://bu.dusays.com/2023/06/27/6499c659cecc2.png" alt="protein-RNA.png" style="zoom:67%;" /></p><h2 id="相关数据库-3"><a href="#相关数据库-3" class="headerlink" title="相关数据库"></a>相关数据库</h2><p><img src="https://bu.dusays.com/2023/06/27/6499c659e7267.png" alt="蛋白- RNA database.png"></p><h1 id="化合物-分子"><a href="#化合物-分子" class="headerlink" title="化合物-分子"></a>化合物-分子</h1><p>化合物可以通过直接作用或间接作用影响到细胞内靶分子的表达量及功能活性。</p><p><img src="https://bu.dusays.com/2023/06/27/6499c78653e9b.png" alt="mol-mol.png"></p><h2 id="相关数据库-4"><a href="#相关数据库-4" class="headerlink" title="相关数据库"></a>相关数据库</h2><p><img src="https://bu.dusays.com/2023/06/27/6499c78672683.png" alt="mol-mol database.png"></p>]]></content>
     
