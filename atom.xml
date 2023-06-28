@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-28T17:08:08.481Z</updated>
+  <updated>2023-06-28T17:25:51.362Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://smileszh.github.io/posts/0.html"/>
-    <id>https://smileszh.github.io/posts/0.html</id>
-    <published>2023-06-28T17:08:08.481Z</published>
-    <updated>2023-06-28T17:08:08.481Z</updated>
+    <title>转录因子</title>
+    <link href="https://smileszh.github.io/posts/7b2ef275.html"/>
+    <id>https://smileszh.github.io/posts/7b2ef275.html</id>
+    <published>2023-06-28T17:00:00.000Z</published>
+    <updated>2023-06-28T17:25:51.362Z</updated>
     
     <content type="html"><![CDATA[<h1 id="背景知识"><a href="#背景知识" class="headerlink" title="背景知识"></a>背景知识</h1><ul><li>一类序列特异性的DNA结合蛋白，调控遗传信息从DNA转录到RNA的速率和过程</li><li>包含一个或多个DNA结合域（DNA-binding domain, DBD）</li><li>能与启动子区域，RNA聚合酶，其他辅助调控因子构成转录起始复合物</li></ul><p><img src="https://bu.dusays.com/2023/06/28/649b8c69b9496.png" alt="基因结构.png"></p><h1 id="转录因子预测原理"><a href="#转录因子预测原理" class="headerlink" title="转录因子预测原理"></a>转录因子预测原理</h1><p><img src="https://bu.dusays.com/2023/06/28/649b8d13b84ce.png" alt="转录因子预测原理.png"></p><h1 id="研究思路"><a href="#研究思路" class="headerlink" title="研究思路"></a>研究思路</h1><p>纯生信</p><ul><li>根据测序结果筛选出的关键基因，探索能否找到潜在的转录因子调控这些基因</li><li>可以同时引入与转录因子和靶基因结合的非编码RNA，构建调节网络</li><li>或者识别出的差异表达基存在转录因子，可以以这个转录因子为中心，构建调节网络</li><li>基于转录因子本身的的表达水平、突变状态、甲基化水平、做转录因子与表型的生信分析</li></ul><p>生信+实验</p><ul><li>基于序列保守性对互作关系进行预筛选，然后再通过EMSA、ChIP等实验验证</li></ul><h1 id="预测数据库"><a href="#预测数据库" class="headerlink" title="预测数据库"></a>预测数据库</h1><p><img src="https://bu.dusays.com/2023/06/28/649b926153d60.png" alt="预测数据库.png"></p><h2 id="JASPAR"><a href="#JASPAR" class="headerlink" title="JASPAR"></a><a href="https://jaspar.genereg.net/">JASPAR</a></h2><p> JASPAR是一个收录转录因子与DNA结合位点以及结合模式的开源公共数据库。JASPAR共包含<strong>9个子数据集</strong>，最常用的是<strong>JASPAR CORE子数据集</strong>，主要收录了六大物种。JASPAR数据库的主要功能是预测目的基因上游结合的转录因子。</p><p><img src="https://bu.dusays.com/2023/06/28/649be997c4510.png" alt="JASPAR home.png"></p><p><img src="https://bu.dusays.com/2023/06/28/649bf85a3a568.png" alt="JASPAR aside.png"></p><h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><ul><li>预测转录因子与目的基因的结合位点信息</li></ul><h2 id="AnimalTFDB-3-0"><a href="#AnimalTFDB-3-0" class="headerlink" title="AnimalTFDB 3.0"></a><a href="http://bioinfo.life.hust.edu.cn/AnimalTFDB/#!/">AnimalTFDB 3.0</a></h2><ul><li>旨在为动物转录因子及其辅助因子提供最全面、准确信息资源的数据库</li><li>提供多种搜索浏览方式，比如可以按照 family、species 或自定义方式进 行检索</li><li>可以批量预测转录因子</li><li>可以批量预测 DNA 序列上的转录因子结合位点</li></ul><p><img src="https://bu.dusays.com/2023/06/28/649c54e741ab8.png" alt="animal home.png"></p><p><img src="https://bu.dusays.com/2023/06/28/649c551d3172b.png" alt="animal home1.png"></p><h3 id="应用-1"><a href="#应用-1" class="headerlink" title="应用"></a>应用</h3><ul><li>预测与目的基因结合的转录因子</li><li>查询与某个转录因子有交互作用的蛋白</li></ul><h2 id="AnimalTFDB-4-0"><a href="#AnimalTFDB-4-0" class="headerlink" title="AnimalTFDB 4.0"></a><a href="http://bioinfo.life.hust.edu.cn/AnimalTFDB4/#/">AnimalTFDB 4.0</a></h2><blockquote><p>新版本，待后续补充此文档</p></blockquote><h2 id="TRRUST"><a href="#TRRUST" class="headerlink" title="TRRUST"></a><a href="https://www.grnpedia.org/trrust/">TRRUST</a></h2><ul><li>TRRUST数据库是一个记录转录因子调控关系的数据库，不仅包含转录因子对应的靶基因，也包含了转录因子间的调控关系。</li><li>该数据库使用MeSH词汇查询、不断改进的sentence-based文本挖掘算法，加之挖掘后仔细的人工校对，保证了该数据库中的TF-target调控互作都是经过实验验证的。</li><li>目前该数据库只存储了<strong>人和小鼠</strong>相关的调控信息。</li><li>TRRUST数据库主要有三个功能：第一查询转录因子的靶基因，第二查询调控转录因子的其他转录因子，第三查找多个基因的关键转录因子。</li></ul><p><img src="https://bu.dusays.com/2023/06/28/649c586ded44b.png" alt="trust home.png"></p><h3 id="应用-2"><a href="#应用-2" class="headerlink" title="应用"></a>应用</h3><ul><li>查询与某个转录因子有相同靶基因的其他转录因子</li><li>查询对一组基因起关键作用的转录因子</li></ul><h2 id="Cistrome-Data-Browser"><a href="#Cistrome-Data-Browser" class="headerlink" title="Cistrome Data Browser"></a><a href="http://cistrome.org/db/#/">Cistrome Data Browser</a></h2><ul><li><p>来自于人和小鼠的大量ChIP-seq、DNase-seq和ATAC-seq染色质谱分析所得到的数据，然后利用这些获取的资源来绘制转录因子结合位点在全基因组中的位置、组蛋白翻译后修饰等信息，并把每个样本的质量评估、比对结果、峰图数据、结合PEAK和靶基因等数据共享出来。</p></li><li><p>CistromeDB的最大特色就是它自己的质控，所以CistromeDB还可以作为ChIP-seq和DNase-seq实验的质量控制指南。</p></li><li>CistromeDB网站目前包含了以下四个方面的信息：一、针对每个ChIP-seq和DNase-seq数据集都提供了自己编录的信息；二、提供了这些公共数据集的分析结果，包括峰图、reads密度分析和一些注释图例；三、为每个数据集提供了全面的质量控制指标，包括reads方面、ChIP方面和注释方面；四、网站提供了数据集的分析和可视化的功能，用户可以直接将数据发送到CistromeDB，按照他们的标准来进行处理，并且网站还支持通过UCSC和WashU来实现单批数据集的可视化操作。</li></ul><p><img src="https://bu.dusays.com/2023/06/29/649c60503b842.png" alt="CDB1.png"></p><p><img src="https://bu.dusays.com/2023/06/29/649c60c029094.png" alt="CDB2.png"></p><h3 id="应用-3"><a href="#应用-3" class="headerlink" title="应用"></a>应用</h3><ul><li>对单个数据集的结果进行整体的查找和查看，比如数据样本具体来自于哪个组织、哪个细胞系</li><li>可以利用这个网站来查找某个数据集的质量控制情况</li><li>利用这个网站来实现转录因子下游靶基因的预测</li><li>可以反向验证自己找的靶基因与某个转录因子结合的可能性。</li></ul><h2 id="ChIP-Atla"><a href="#ChIP-Atla" class="headerlink" title="ChIP-Atla"></a><a href="https://chip-atlas.org/">ChIP-Atla</a></h2><p>ChIP-Atlas数据库全面整合了六个代表性模型生物（人类、小鼠、大鼠、果蝇、线虫和酵母）的ChIP-seq和DNase-seq数据。ChIP-Atlas数据库能够显示NCBI网站SRA中存档的所有公共ChIP-seq和DNase-seq数据的对比和峰图结果。</p><p><img src="https://bu.dusays.com/2023/06/29/649c6555eed78.png" alt="chip-at.png"></p><h3 id="应用-4"><a href="#应用-4" class="headerlink" title="应用"></a>应用</h3><ul><li><p>浏览转录因子的结合位点信息</p></li><li><p>预测可能与转录因子结合的靶基因</p></li><li>查找还有哪些其他转录因子结合在这个靶基因上</li></ul><h2 id="ChIPBase"><a href="#ChIPBase" class="headerlink" title="ChIPBase"></a><a href="https://rnasysu.com/chipbase3/">ChIPBase</a></h2><h2 id="miRGen"><a href="#miRGen" class="headerlink" title="miRGen"></a><a href="https://diana.e-ce.uth.gr/mirgenv4/tool">miRGen</a></h2><h2 id="TransmiR"><a href="#TransmiR" class="headerlink" title="TransmiR"></a><a href="https://www.cuilab.cn/transmir">TransmiR</a></h2><h1 id="转录因子验证实验"><a href="#转录因子验证实验" class="headerlink" title="转录因子验证实验"></a>转录因子验证实验</h1><h2 id="Luciferase-assay-荧光素酶报告基因实验"><a href="#Luciferase-assay-荧光素酶报告基因实验" class="headerlink" title="Luciferase assay 荧光素酶报告基因实验"></a>Luciferase assay 荧光素酶报告基因实验</h2><p>研究某个转录因子是否与启动子区 域某段 DNA 序列结合影响基因表达时，通常是将带检测的 DNA 序列插入到荧光素酶报告基因的 5’端，然后加入待检测的转录因子，通过对荧光信号的观测，推断转录因子对报告基因转录的影响。</p><p><img src="https://bu.dusays.com/2023/06/28/649b9d5ca70a3.png" alt="荧光素酶.png" style="zoom:67%;" /></p><h2 id="EMSA-Electrophoretic-Mobility-Shift-Assay-凝胶迁移实验"><a href="#EMSA-Electrophoretic-Mobility-Shift-Assay-凝胶迁移实验" class="headerlink" title="EMSA(Electrophoretic Mobility Shift Assay) 凝胶迁移实验"></a>EMSA(Electrophoretic Mobility Shift Assay) 凝胶迁移实验</h2><p>研究 DNA 与蛋白质直接结合的常用技术，可用于定性和定量分析。首先让蛋白质与末端标记的 DNA 探针孵育，然后跑 PAGE 胶。结合了蛋白质的 DNA 探针比未结合蛋白质的探针的电泳速率要慢， 进而判断某个蛋白和某段 DNA 能否直接结合。</p><p><img src="https://bu.dusays.com/2023/06/28/649b9dec54b7f.png" alt="EMSA.png"></p><h2 id="Chip-Chromatin-ImmunoPrecipitation-染色质免疫共沉淀实验"><a href="#Chip-Chromatin-ImmunoPrecipitation-染色质免疫共沉淀实验" class="headerlink" title="Chip(Chromatin ImmunoPrecipitation)染色质免疫共沉淀实验"></a>Chip(Chromatin ImmunoPrecipitation)染色质免疫共沉淀实验</h2><p>在生理状态也就是活细胞状态下，把细胞内的 DNA 与蛋白质交联在一起，通过超声或酶处理将其随机切断成一定长 度范围内的染色质小片段后，利用目的蛋白抗体，特异性地富集目的蛋白结合的 DNA 片段。接着，通过多种下游检测技术，如定量 PCR，二代测序等 来检测此富集片段的 DNA 序 列。</p><p><img src="https://bu.dusays.com/2023/06/28/649b9fb4d093e.png" alt="CHIP.png" style="zoom:67%;" /></p>]]></content>
     
@@ -35,6 +35,10 @@
     
     
     
+    <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
+    
+    
+    <category term="分子互作" scheme="https://smileszh.github.io/tags/%E5%88%86%E5%AD%90%E4%BA%92%E4%BD%9C/"/>
     
   </entry>
   
@@ -139,9 +143,9 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="富集分析" scheme="https://smileszh.github.io/tags/%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90/"/>
+    
+    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -166,11 +170,11 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
     
     <category term="富集分析" scheme="https://smileszh.github.io/tags/%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90/"/>
+    
+    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -326,9 +330,9 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="基因注释" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0%E6%B3%A8%E9%87%8A/"/>
-    
     <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="基因注释" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0%E6%B3%A8%E9%87%8A/"/>
     
   </entry>
   
