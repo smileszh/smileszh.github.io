@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-28T17:25:51.362Z</updated>
+  <updated>2023-06-29T08:46:12.187Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>生信数据格式</title>
+    <link href="https://smileszh.github.io/posts/795e1915.html"/>
+    <id>https://smileszh.github.io/posts/795e1915.html</id>
+    <published>2023-06-29T09:00:00.000Z</published>
+    <updated>2023-06-29T08:46:12.187Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="FASTQ"><a href="#FASTQ" class="headerlink" title="FASTQ"></a>FASTQ</h1><p>通过测序，一般拿到的数据是<strong>.fastq</strong>或者<strong>.fq</strong>的原始数据格式，该数据包含所有的reads信息，其中一条reads主要包含以下4行信息：</p><ul><li><p>第一行主要储存序列测序时的坐标等信息，可用于区分来源；</p></li><li><p>第二行是测序得到的序列信息，一般用ATCGN来表示，其中N表示荧光信号干扰无法判断到底是哪个碱基;</p></li><li><p>第三行以“+”开始，可以储存一些附加信息，一般是空的；</p></li><li><p>第四行储存的是质量信息，与第2行的碱基序列是一一对应的，其中的每一个符号对应的ASCII值成为phred值，可以简单理解为对应位置碱基的质量值，越大说明测序的质量越好。不同的版本对应的不同。</p></li></ul><p><img src="https://bu.dusays.com/2023/06/29/649ce796a5a28.png" alt="fastq.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;FASTQ&quot;&gt;&lt;a href=&quot;#FASTQ&quot; class=&quot;headerlink&quot; title=&quot;FASTQ&quot;&gt;&lt;/a&gt;FASTQ&lt;/h1&gt;&lt;p&gt;通过测序，一般拿到的数据是&lt;strong&gt;.fastq&lt;/strong&gt;或者&lt;strong&gt;.fq&lt;/strong&gt;</summary>
+      
+    
+    
+    
+    <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
+    
+    
+    <category term="数据格式" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RNA-Seq</title>
+    <link href="https://smileszh.github.io/posts/7acd0447.html"/>
+    <id>https://smileszh.github.io/posts/7acd0447.html</id>
+    <published>2023-06-29T08:00:00.000Z</published>
+    <updated>2023-06-29T08:45:16.407Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="RNA-Seq分析流程"><a href="#RNA-Seq分析流程" class="headerlink" title="RNA-Seq分析流程"></a>RNA-Seq分析流程</h1><p><img src="https://bu.dusays.com/2023/06/29/649ce4ac2c1fe.png" alt="分析流程.png"></p><h1 id="比对和组装"><a href="#比对和组装" class="headerlink" title="比对和组装"></a>比对和组装</h1><p><img src="https://bu.dusays.com/2023/06/29/649ce8628dc1e.png" alt="比对和组装.png"></p><h1 id="定量和标准化"><a href="#定量和标准化" class="headerlink" title="定量和标准化"></a>定量和标准化</h1><p><img src="https://bu.dusays.com/2023/06/29/649ce991c1407.png" alt="定量和标准化.png"></p><h1 id="差异分析"><a href="#差异分析" class="headerlink" title="差异分析"></a>差异分析</h1><p><img src="https://bu.dusays.com/2023/06/29/649cea75e840e.png" alt="差异分析.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;RNA-Seq分析流程&quot;&gt;&lt;a href=&quot;#RNA-Seq分析流程&quot; class=&quot;headerlink&quot; title=&quot;RNA-Seq分析流程&quot;&gt;&lt;/a&gt;RNA-Seq分析流程&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://bu.dusays.com/20</summary>
+      
+    
+    
+    
+    <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
+    
+    
+    <category term="转录组" scheme="https://smileszh.github.io/tags/%E8%BD%AC%E5%BD%95%E7%BB%84/"/>
+    
+  </entry>
   
   <entry>
     <title>转录因子</title>
@@ -330,9 +378,9 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="基因注释" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0%E6%B3%A8%E9%87%8A/"/>
-    
     <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="基因注释" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0%E6%B3%A8%E9%87%8A/"/>
     
   </entry>
   
