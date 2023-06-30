@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2023-06-30T08:20:38.116Z</updated>
+  <updated>2023-06-30T09:10:16.363Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://smileszh.github.io/posts/b21fca77.html"/>
     <id>https://smileszh.github.io/posts/b21fca77.html</id>
     <published>2023-06-30T08:00:00.000Z</published>
-    <updated>2023-06-30T08:20:38.116Z</updated>
+    <updated>2023-06-30T09:10:16.363Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="从服务器下载文件到本地"><a href="#从服务器下载文件到本地" class="headerlink" title="从服务器下载文件到本地"></a>从服务器下载文件到本地</h1><ol><li>打开Mac终端</li><li>使用scp命令下载文件</li></ol><div class="tabs" id="scp"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#scp-1">命令💻</button></li><li class="tab"><button type="button" data-href="#scp-2">参数解释🗣️</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="scp-1"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp -r xiaosu@10.10.140.xxx:~xiaosu/gorden ~/xiaosu/Desktop</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div><div class="tab-item-content" id="scp-2"><div class="table-container"><table><thead><tr><th style="text-align:center">参数</th><th style="text-align:center">说明</th></tr></thead><tbody><tr><td style="text-align:center">-r</td><td style="text-align:center">如下载的是文件夹需使用此参数，如果是文件可不使用此参数</td></tr><tr><td style="text-align:center">xiaosu@10.10.140.xxx</td><td style="text-align:center">服务器地址</td></tr><tr><td style="text-align:center">~xiaosu/gorden</td><td style="text-align:center">输入服务器中要下载的文件路径</td></tr><tr><td style="text-align:center">~/xiaosu/Desktop</td><td style="text-align:center">输入本地地址</td></tr></tbody></table></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div></div><script async id="asciicast-ypnQv3nx22hIDB1V58Kop4o7j" src="https://asciinema.org/a/ypnQv3nx22hIDB1V58Kop4o7j.js"></script>]]></content>
+    <content type="html"><![CDATA[<h1 id="从服务器下载文件到本地"><a href="#从服务器下载文件到本地" class="headerlink" title="从服务器下载文件到本地"></a>从服务器下载文件到本地</h1><ol><li>打开Mac终端</li><li>使用scp命令下载文件</li></ol><div class="tabs" id="scp"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#scp-1">命令💻</button></li><li class="tab"><button type="button" data-href="#scp-2">参数解释🗣️</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="scp-1"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp -r xiaosu@10.10.140.xxx:~xiaosu/gorden /Users/xiaosu/Desktop</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div><div class="tab-item-content" id="scp-2"><div class="table-container"><table><thead><tr><th style="text-align:center">参数</th><th style="text-align:center">说明</th></tr></thead><tbody><tr><td style="text-align:center">-r</td><td style="text-align:center">如下载的是文件夹需使用此参数，如果是文件可不使用此参数</td></tr><tr><td style="text-align:center">xiaosu@10.10.140.xxx</td><td style="text-align:center">服务器地址</td></tr><tr><td style="text-align:center">~xiaosu/gorden</td><td style="text-align:center">输入服务器中要下载的文件路径</td></tr><tr><td style="text-align:center">/Users/xiaosu/Desktop</td><td style="text-align:center">输入本地地址，必须是全局路径</td></tr></tbody></table></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div></div><script async id="asciicast-ypnQv3nx22hIDB1V58Kop4o7j" src="https://asciinema.org/a/ypnQv3nx22hIDB1V58Kop4o7j.js"></script>]]></content>
     
     
       
