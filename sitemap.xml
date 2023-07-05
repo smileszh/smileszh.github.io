@@ -334,6 +334,13 @@
   </url>
   
   <url>
+    <loc>https://smileszh.github.io/tags/%E8%BD%AC%E5%BD%95%E7%BB%84/</loc>
+    <lastmod>2023-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://smileszh.github.io/tags/Mac/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -342,13 +349,6 @@
   
   <url>
     <loc>https://smileszh.github.io/tags/Terminal/</loc>
-    <lastmod>2023-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://smileszh.github.io/tags/%E8%BD%AC%E5%BD%95%E7%BB%84/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
