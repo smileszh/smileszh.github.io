@@ -66,9 +66,9 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     <category term="富集分析" scheme="https://smileszh.github.io/tags/%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90/"/>
     
@@ -207,9 +207,9 @@
     <link href="https://smileszh.github.io/posts/53f493a2.html"/>
     <id>https://smileszh.github.io/posts/53f493a2.html</id>
     <published>2023-06-28T14:00:00.000Z</published>
-    <updated>2023-07-18T08:27:56.064Z</updated>
+    <updated>2023-08-01T01:43:42.414Z</updated>
     
-    <content type="html"><![CDATA[<p><em>小苏碎碎念</em></p><p><em>此篇文档主要记录科研上的一些易混知识，持续更新～</em></p><ul><li>什么是有义链/反义链(sense/antisense)？<blockquote><p>有义链是与mRNA具有相同序列的DNA链，又称<strong>编码链</strong>、<strong>有意义链</strong>。在转录过程中以反义链为模版，翻译成蛋白质。</p></blockquote></li></ul><ul><li><p>什么是正链(forward stand; Plus strand)/负链(reverse strand; minus strand)?</p><blockquote><p>人为规定的一条链，DNA的一条链被认为是正链，另一条链就是负链。</p></blockquote></li><li><p>基因结构是什么样的？</p><blockquote><p>转自<a href="https://zhuanlan.zhihu.com/p/49601643">知乎</a></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://bu.dusays.com/2023/07/18/64b64c767db31.jpeg" style="width:600px;"/></div></div></blockquote></li></ul>]]></content>
+    <content type="html"><![CDATA[<p><em>小苏碎碎念</em></p><p><em>此篇文档主要记录科研上的一些易混知识，持续更新～</em></p><ul><li>什么是有义链/反义链(sense/antisense)？<blockquote><p>有义链是与mRNA具有相同序列的DNA链，又称<strong>编码链</strong>、<strong>有意义链</strong>。在转录过程中以反义链为模版，翻译成蛋白质。</p></blockquote></li></ul><ul><li><p>什么是正链(forward stand; Plus strand)/负链(reverse strand; minus strand)?</p><blockquote><p>人为规定的一条链，DNA的一条链被认为是正链，另一条链就是负链。</p></blockquote></li><li><p>基因结构是什么样的？</p><blockquote><p>转自<a href="https://zhuanlan.zhihu.com/p/49601643">知乎</a></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://bu.dusays.com/2023/07/18/64b64c767db31.jpeg" style="width:600px;"/></div></div></blockquote></li><li><p>核苷酸的歧义代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">Y     Pyrimidine (C or T) </span><br><span class="line">R     Purine (A or G) </span><br><span class="line">W     Weak (A or T)</span><br><span class="line">S     Strong (G or C) </span><br><span class="line">K     Keto (T or G) </span><br><span class="line">M     Amino (C or A)     </span><br><span class="line">D     A, G, T (not C - remember as after C)</span><br><span class="line">V     A, C, G (not T - remember as after T/U - We&#x27;ll get to &quot;U&quot; soon) </span><br><span class="line">H     A, C, T (not G - remember as after G)</span><br><span class="line">B     C, G, T (not A - remember as after A)</span><br><span class="line">N     Any base</span><br><span class="line">-     Gap  </span><br></pre></td></tr></table></figure></li></ul>]]></content>
     
     
       
