@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>海底捞里没有鱼</title>
   
-  <subtitle>平安喜乐，万事胜意。</subtitle>
+  
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://smileszh.github.io/</id>
   
   <author>
-    <name>泡泡</name>
+    <name>泡泡&amp;小鱼</name>
     
   </author>
   
