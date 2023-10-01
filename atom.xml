@@ -186,14 +186,14 @@
     <link href="https://smileszh.github.io/posts/795e1915.html"/>
     <id>https://smileszh.github.io/posts/795e1915.html</id>
     <published>2023-06-29T09:00:00.000Z</published>
-    <updated>2023-06-29T08:46:12.187Z</updated>
+    <updated>2023-09-27T02:57:42.982Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="FASTQ"><a href="#FASTQ" class="headerlink" title="FASTQ"></a>FASTQ</h1><p>通过测序，一般拿到的数据是<strong>.fastq</strong>或者<strong>.fq</strong>的原始数据格式，该数据包含所有的reads信息，其中一条reads主要包含以下4行信息：</p><ul><li><p>第一行主要储存序列测序时的坐标等信息，可用于区分来源；</p></li><li><p>第二行是测序得到的序列信息，一般用ATCGN来表示，其中N表示荧光信号干扰无法判断到底是哪个碱基;</p></li><li><p>第三行以“+”开始，可以储存一些附加信息，一般是空的；</p></li><li><p>第四行储存的是质量信息，与第2行的碱基序列是一一对应的，其中的每一个符号对应的ASCII值成为phred值，可以简单理解为对应位置碱基的质量值，越大说明测序的质量越好。不同的版本对应的不同。</p></li></ul><p><img src="https://bu.dusays.com/2023/06/29/649ce796a5a28.png" alt="fastq.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="FASTQ"><a href="#FASTQ" class="headerlink" title="FASTQ"></a>FASTQ</h1><div class="tabs" id="fastq"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="fastq-1">简介</button></ul><div class="tab-contents"><div class="tab-item-content active" id="fastq-1"><p>通过测序，一般拿到的数据是<strong>.fastq</strong>或者<strong>.fq</strong>的原始数据格式，该数据包含所有的reads信息，其中一条reads主要包含以下4行信息：</p><ul><li><p>第一行主要储存序列测序时的坐标等信息，可用于区分来源；</p></li><li><p>第二行是测序得到的序列信息，一般用ATCGN来表示，其中N表示荧光信号干扰无法判断到底是哪个碱基;</p></li><li><p>第三行以“+”开始，可以储存一些附加信息，一般是空的；</p></li><li><p>第四行储存的是质量信息，与第2行的碱基序列是一一对应的，其中的每一个符号对应的ASCII值成为phred值，可以简单理解为对应位置碱基的质量值，越大说明测序的质量越好。不同的版本对应的不同。</p></li></ul><p><img src="https://bu.dusays.com/2023/06/29/649ce796a5a28.png" alt="fastq.png"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><h1 id="SAM"><a href="#SAM" class="headerlink" title="SAM"></a>SAM</h1><div class="tabs" id="sam"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="sam-1">简介</button></ul><div class="tab-contents"><div class="tab-item-content active" id="sam-1"><div class="img-wrap"><div class="img-bg"><img class="img" src="https://bu.dusays.com/2023/09/27/65139179eac55.png" style="width:800px;"/></div></div></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;FASTQ&quot;&gt;&lt;a href=&quot;#FASTQ&quot; class=&quot;headerlink&quot; title=&quot;FASTQ&quot;&gt;&lt;/a&gt;FASTQ&lt;/h1&gt;&lt;p&gt;通过测序，一般拿到的数据是&lt;strong&gt;.fastq&lt;/strong&gt;或者&lt;strong&gt;.fq&lt;/strong&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;FASTQ&quot;&gt;&lt;a href=&quot;#FASTQ&quot; class=&quot;headerlink&quot; title=&quot;FASTQ&quot;&gt;&lt;/a&gt;FASTQ&lt;/h1&gt;&lt;div class=&quot;tabs&quot; id=&quot;fastq&quot;&gt;&lt;ul class=&quot;nav-tabs&quot;&gt;&lt;button typ</summary>
       
     
     
