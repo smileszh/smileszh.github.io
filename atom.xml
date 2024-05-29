@@ -6,7 +6,7 @@
   <link href="https://smileszh.github.io/atom.xml" rel="self"/>
   
   <link href="https://smileszh.github.io/"/>
-  <updated>2024-05-02T15:23:42.216Z</updated>
+  <updated>2024-05-29T12:35:41.645Z</updated>
   <id>https://smileszh.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Makefile基本使用</title>
+    <link href="https://smileszh.github.io/posts/b536050b.html"/>
+    <id>https://smileszh.github.io/posts/b536050b.html</id>
+    <published>2024-05-29T10:00:00.000Z</published>
+    <updated>2024-05-29T12:35:41.645Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Makefile简介"><a href="#Makefile简介" class="headerlink" title="Makefile简介"></a>Makefile简介</h1><p><a href="https://makefiletutorial.com/">Makefile</a> 是一个文本文件（默认情况下使用名为 Makefile 的文件），其中列出了按所谓 “target”分组的命令，你可以将其视为应一起执行的命令组。我们用 TAB 缩进字符来表示属于某个目标的命令。<br>默认情况下，make 会同时打印执行的命令和命令本身的结果。如果需要，你可以关闭这种行为，不过通常情况下，你确实希望看到被执行的内容。一开始，同时看到命令和输出结果可能会让人有点困惑，但你的眼睛很快就会习惯的。</p><p>一个Makefile文件的基本结构如下：</p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">foo:</span></span><br><span class="line">    echo Hello John!</span><br><span class="line"></span><br><span class="line"><span class="section">bar:</span></span><br><span class="line">    echo Hello Jane!</span><br><span class="line">    echo Hello Everyone!</span><br></pre></td></tr></table></figure><p><code>执行全部代码：</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make -f Makefile</span><br></pre></td></tr></table></figure></p><p><code>执行指定代码：</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make -f Makefile foo</span><br></pre></td></tr></table></figure></p><p>需要注意的是，Makefile 中的命令必须使用 Tab 键缩进，不能使用空格。不过我们可以通过设置 .RECIPEPREFIX 变量来修改这个行为，例如：</p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.RECIPEPREFIX = &gt;</span><br><span class="line"><span class="section">foo:</span></span><br><span class="line">&gt; echo Hello John!</span><br><span class="line"></span><br><span class="line"><span class="section">bar:</span></span><br><span class="line">&gt; echo Hello Jane!</span><br><span class="line">&gt; echo Hello Everyone!</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Makefile简介&quot;&gt;&lt;a href=&quot;#Makefile简介&quot; class=&quot;headerlink&quot; title=&quot;Makefile简介&quot;&gt;&lt;/a&gt;Makefile简介&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://makefiletutorial.com/</summary>
+      
+    
+    
+    
+    <category term="拓展技能" scheme="https://smileszh.github.io/categories/%E6%8B%93%E5%B1%95%E6%8A%80%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Git使用</title>
@@ -141,9 +163,9 @@
     <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
     
     
-    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="数据库" scheme="https://smileszh.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     <category term="富集分析" scheme="https://smileszh.github.io/tags/%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90/"/>
     
@@ -513,34 +535,6 @@
     <category term="基因注释" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0%E6%B3%A8%E9%87%8A/"/>
     
     <category term="GO/KEGG" scheme="https://smileszh.github.io/tags/GO-KEGG/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>基因ID转换</title>
-    <link href="https://smileszh.github.io/posts/cee7e62d.html"/>
-    <id>https://smileszh.github.io/posts/cee7e62d.html</id>
-    <published>2023-06-05T12:00:00.000Z</published>
-    <updated>2023-06-24T02:41:12.393Z</updated>
-    
-    <content type="html"><![CDATA[<p><em>写在前面的话：</em></p><p><em>基因ID在不同的生信软件和数据库中有不同的命名规则。因此，将基因ID进行转换是必备的生信技能。此文章主要介绍几个常用的基因ID转换网站及R包转换工具</em></p><h1 id="BioMart工具"><a href="#BioMart工具" class="headerlink" title="BioMart工具"></a><a href="https://www.ensembl.org/biomart/martview/ccf8f9fdc5c9f83c988b1d4f24648cf5">BioMart工具</a></h1><blockquote><p>BioMart 是 Ensembl 网站提供的一个 web 工具。他的主要功能是进行基因功能的注释和跨数据库注释，还有就是基因ID的转换。</p></blockquote><h2 id="选择数据库和数据集"><a href="#选择数据库和数据集" class="headerlink" title="选择数据库和数据集"></a>选择数据库和数据集</h2><p><img src="https://bu.dusays.com/2023/06/13/64874d703b0f8.png" alt="第一步.png" style="zoom: 67%;" /></p><p><img src="https://bu.dusays.com/2023/06/13/64874d7042b11.png" alt="第二步.png" style="zoom:67%;" /></p><h2 id="输入ID类型及基因集"><a href="#输入ID类型及基因集" class="headerlink" title="输入ID类型及基因集"></a>输入ID类型及基因集</h2><blockquote><p>限制一次500个ID转换</p></blockquote><p><img src="https://bu.dusays.com/2023/06/13/64874d705049c.png" alt="第三步.png" style="zoom:67%;" /></p><p><img src="https://bu.dusays.com/2023/06/13/64874d703d705.png" alt="第四步.png" style="zoom:67%;" /></p><h2 id="选择输出基因ID类型"><a href="#选择输出基因ID类型" class="headerlink" title="选择输出基因ID类型"></a>选择输出基因ID类型</h2><p><img src="https://bu.dusays.com/2023/06/13/64874d703d1ab.png" alt="第五步.png" style="zoom:67%;" /></p><p><em>注：查看数据基因ID信息</em></p><p><img src="https://bu.dusays.com/2023/06/13/64874d70415b1.png" alt="第六步.png" style="zoom:67%;" /></p><h2 id="输出结果"><a href="#输出结果" class="headerlink" title="输出结果"></a>输出结果</h2><p><img src="https://bu.dusays.com/2023/06/13/64874d7039cdb.png" alt="第七步.png" style="zoom:67%;" /></p><h1 id="BioDBnet"><a href="#BioDBnet" class="headerlink" title="BioDBnet"></a><a href="https://biodbnet-abcc.ncifcrf.gov/">BioDBnet</a></h1><blockquote><p>biological DataBase network，一个集成了大量生物数据库的应用程序，比如Gene, UniProt, Ensembl, GO等，由ABCC进行维护。它实际上包括多个应用程序，如dbWork，dbFind等。主要功能包括基因ID转换，基因功能注释，基因信息查找，还可以将基因ID转换成其他物种的同源基因ID等。</p></blockquote><h2 id="选择输入和输出ID类型"><a href="#选择输入和输出ID类型" class="headerlink" title="选择输入和输出ID类型"></a>选择输入和输出ID类型</h2><p><img src="https://bu.dusays.com/2023/06/13/6487538f3c72e.png" alt="1.png" style="zoom: 50%;" /></p><h2 id="输入物种Taxon-ID"><a href="#输入物种Taxon-ID" class="headerlink" title="输入物种Taxon ID"></a>输入物种Taxon ID</h2><p><img src="https://bu.dusays.com/2023/06/13/6487538f572a5.png" alt="2.png" style="zoom:50%;" /></p><p><img src="https://bu.dusays.com/2023/06/13/6487538f3b159.png" alt="3.png" style="zoom: 50%;" /></p><h2 id="输入数据集并提交结果"><a href="#输入数据集并提交结果" class="headerlink" title="输入数据集并提交结果"></a>输入数据集并提交结果</h2><p><img src="https://bu.dusays.com/2023/06/13/6487538f55c2f.png" alt="4.png" style="zoom:50%;" /></p><h2 id="结果查看"><a href="#结果查看" class="headerlink" title="结果查看"></a>结果查看</h2><p><img src="https://bu.dusays.com/2023/06/13/6487538f55c2f.png" alt="5.png" style="zoom:50%;" /></p><h1 id="BioDBnet其他工具"><a href="#BioDBnet其他工具" class="headerlink" title="BioDBnet其他工具"></a>BioDBnet其他工具</h1><h2 id="dbWalk"><a href="#dbWalk" class="headerlink" title="dbWalk"></a>dbWalk</h2><blockquote><p>适用于需要转换为多种ID类型</p></blockquote><p><img src="https://bu.dusays.com/2023/06/13/64875ca1e3640.png" alt="6.png" style="zoom:50%;" /></p><p><img src="https://bu.dusays.com/2023/06/13/64875cd40ed8d.png" alt="7.png" style="zoom: 50%;" /></p><h2 id="dbFind"><a href="#dbFind" class="headerlink" title="dbFind"></a>dbFind</h2><blockquote><p>自动识别输入的基因ID类型，并转换为统一ID类型</p></blockquote><p><img src="https://bu.dusays.com/2023/06/13/64875ce4ac000.png" alt="8.png" style="zoom:50%;" /></p><p><img src="https://bu.dusays.com/2023/06/13/64875ce70ae86.png" alt="9.png" style="zoom:50%;" /></p><h1 id="DAVID"><a href="#DAVID" class="headerlink" title="DAVID"></a><a href="https://david.ncifcrf.gov/home.jsp">DAVID</a></h1><h2 id="打开官网，选择基因ID转换工具"><a href="#打开官网，选择基因ID转换工具" class="headerlink" title="打开官网，选择基因ID转换工具"></a>打开官网，选择基因ID转换工具</h2><p><img src="https://bu.dusays.com/2023/06/18/648df8d0b8414.png" alt="Screenshot 2023-06-18 at 01.55.47.png"></p><h2 id="上传基因List"><a href="#上传基因List" class="headerlink" title="上传基因List"></a>上传基因List</h2><p><img src="https://bu.dusays.com/2023/06/18/648df8a619dcc.png" alt="Screenshot 2023-06-18 at 01.57.47.png"></p><h2 id="填写选项"><a href="#填写选项" class="headerlink" title="填写选项"></a>填写选项</h2><p><img src="https://bu.dusays.com/2023/06/18/648df87d5e7a5.png" alt="David ID.png"></p><h2 id="结果查看-1"><a href="#结果查看-1" class="headerlink" title="结果查看"></a>结果查看</h2><p><img src="https://bu.dusays.com/2023/06/24/649657a4d9bec.png" alt="Screenshot 2023-06-18 at 02.04.12.png" style="zoom:100%;" /></p><h1 id="Uniprot"><a href="#Uniprot" class="headerlink" title="Uniprot"></a><a href="https://www.uniprot.org/">Uniprot</a></h1><h2 id="选择ID-mapping"><a href="#选择ID-mapping" class="headerlink" title="选择ID mapping"></a>选择ID mapping</h2><p><img src="https://bu.dusays.com/2023/06/20/6491c87ec0aff.png" alt="uniprot基因转化1.png"></p><h2 id="根据需求输入信息"><a href="#根据需求输入信息" class="headerlink" title="根据需求输入信息"></a>根据需求输入信息</h2><p><img src="https://bu.dusays.com/2023/06/20/6491c87e5b7fa.png" alt="uniprot基因转化2.png"></p><h2 id="选择Reviewed"><a href="#选择Reviewed" class="headerlink" title="选择Reviewed"></a>选择Reviewed</h2><p><img src="https://bu.dusays.com/2023/06/20/6491c87e61175.png" alt="uniprot基因转化3.png"></p><h2 id="结果查看和下载"><a href="#结果查看和下载" class="headerlink" title="结果查看和下载"></a>结果查看和下载</h2><p><img src="https://bu.dusays.com/2023/06/20/6491c87e61175.png" alt="uniprot基因转化4.png"></p><h1 id="使用R包进行转换"><a href="#使用R包进行转换" class="headerlink" title="使用R包进行转换"></a>使用R包进行转换</h1><div class="tabs" id="基因id转换"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="基因id转换-1">代码示例</button><button type="button" class="tab " data-href="基因id转换-2">基因ID类型</button><button type="button" class="tab " data-href="基因id转换-3">物种基因注释包</button></ul><div class="tab-contents"><div class="tab-item-content active" id="基因id转换-1"><p><strong><br><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">library<span class="punctuation">(</span><span class="string">&quot;clusterProfiler&quot;</span><span class="punctuation">)</span> </span><br><span class="line">library<span class="punctuation">(</span><span class="string">&quot;org.Bt.eg.db&quot;</span><span class="punctuation">)</span> <span class="comment"># 根据物种选择不同的物种基因注释包</span></span><br><span class="line"></span><br><span class="line">gene_name <span class="operator">&lt;-</span> bitr<span class="punctuation">(</span>sig_rna<span class="operator">$</span>ENSEMBLTRANS<span class="punctuation">,</span> <span class="comment"># 输入数据集</span></span><br><span class="line">                fromType <span class="operator">=</span> <span class="string">&quot;ENSEMBLTRANS&quot;</span><span class="punctuation">,</span> <span class="comment"># 输入ID类型</span></span><br><span class="line">                toType <span class="operator">=</span> <span class="built_in">c</span><span class="punctuation">(</span><span class="string">&quot;SYMBOL&quot;</span><span class="punctuation">)</span><span class="punctuation">,</span> <span class="comment"># 输出ID类型</span></span><br><span class="line">                OrgDb <span class="operator">=</span> org.Bt.eg.db<span class="punctuation">)</span> <span class="comment"># 物种ID数据包</span></span><br></pre></td></tr></table></figure></strong></p></div><div class="tab-item-content" id="基因id转换-2"><p><strong><br><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">keytypes<span class="punctuation">(</span>org.Bt.eg.db<span class="punctuation">)</span></span><br></pre></td></tr></table></figure><br>[1] “ACCNUM”       “ALIAS”        “ENSEMBL”<br>[4] “ENSEMBLPROT”  “ENSEMBLTRANS” “ENTREZID”<br>[7] “ENZYME”       “EVIDENCE”     “EVIDENCEALL”<br>[10] “GENENAME”     “GENETYPE”     “GO”<br>[13] “GOALL”        “IPI”          “ONTOLOGY”<br>[16] “ONTOLOGYALL”  “PATH”         “PFAM”<br>[19] “PMID”         “PROSITE”      “REFSEQ”<br>[22] “SYMBOL”       “UNIPROT” </strong></p></div><div class="tab-item-content" id="基因id转换-3"><p><strong><br><a href="http://bioconductor.org/packages/release/BiocViews.html#___OrgDb">物种基因注释包</a></strong></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;em&gt;写在前面的话：&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;基因ID在不同的生信软件和数据库中有不同的命名规则。因此，将基因ID进行转换是必备的生信技能。此文章主要介绍几个常用的基因ID转换网站及R包转换工具&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&quot;BioMart工具&quot;&gt;&lt;a hre</summary>
-      
-    
-    
-    
-    <category term="生物信息学" scheme="https://smileszh.github.io/categories/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
-    
-    
-    <category term="R语言" scheme="https://smileszh.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
-    
-    <category term="基因ID" scheme="https://smileszh.github.io/tags/%E5%9F%BA%E5%9B%A0ID/"/>
     
   </entry>
   
